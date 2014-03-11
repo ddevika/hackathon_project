@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusicFinger</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+      <link rel="stylesheet" href="css/music.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/music.js"></script>
+    <!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script-->
+    
+
+</head>
+<body>
+	<div class = "heading">
+		<div id = "title">
+			<h1>MusicFinger</h1>
+		</div>
+
+	<div id = "content">
+		<div class = "searchbox large-4 medium-4 columns">
+  		 	<input type="text" placeholder="Search for any song" />
+  		 </div>
+
+  		 <div id = "guitar-button" class ="small round button" onclick = "loadContent()">
+  		 	 Guitar
+  		 </div>
+
+  		  <div id = "piano-button" class ="small round button" onclick = "loadContent()">
+  		    Piano
+  		 </div>
+  	</div>
+
+    <div id = "content-studio">
+      <div class = "searchbox2 large-4 medium-4 columns">
+        <input type="text" placeholder="Search for music studio" />
+       </div>
+
+       <div id = "location-button" class ="small round button" onclick = "loadContent()">
+         Use My Location
+       </div>
+
+        <div id = "search-button" class ="small round button" onclick = "loadContent()">
+          Search
+       </div>
+    </div>
+
+
+    <div id= "content-piano">
+      <img src = "img/piano.jpg"></a>
+    </div>
+
+    <div id= "content-guitar">
+      <img src = "img/guitar.gif"></a>
+    </div>
+
+      <div id = "bottom-nav">
+       <div id = "chords-button" class ="small round button" onclick = "loadContent()">
+         Search Chords
+       </div>
+
+        <div id = "studio-button" class ="small round button" onclick = "loadContent()" >
+          Search Music Studio
+       </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  	</body>
+  </html>
