@@ -1,0 +1,169 @@
+.heading
+{
+	width: 320px;
+	height: 65px;
+	background: #000;
+}
+
+#bottom-nav
+{
+	width: 320px;
+	height: 65px;
+	background: #000;
+	margin: 0 auto;
+}
+#title
+{
+	margin: 0 auto;
+	height: 65px;
+}
+h1
+{
+	color: #f2f2f2;
+	margin: 0px 108px 5px 77px;
+	font-size: 31px;
+}
+
+a
+{
+	font-size: 15px;
+	color: #f2f2f2;
+}
+
+
+#content
+{
+	width: 320px;
+	height: 400px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	background-image:url("bg.jpg");
+
+}
+#content-studio
+{
+	width: 320px;
+	height: 400px;
+	background: #f2f2f2;
+	margin: 0 auto;
+	background-image:url("studiobg1.jpg");
+
+}
+
+
+ #content-piano, #content-location
+{
+	height: auto;
+	margin-left: 51px;
+	background: #f2f2f2;
+	margin: 0 auto;
+
+}
+
+
+.searchbox
+{
+	width: 229px;
+	height: 100px;
+	margin-left: 54px;
+	margin-top: 25px;
+}
+
+.searchbox2
+{
+	width: 229px;
+	height: 100px;
+	margin-left: 54px;
+	margin-top: 25px;
+}
+
+#guitar-button
+{
+	border-radius: 2px;
+	background: #82b64b;
+	margin-left: 78px;
+
+}
+
+#piano-button, #search-button
+{
+	border-radius: 2px;
+	background: #4A84FF;
+
+}
+
+#chords-button
+{
+	background: #534D4D;
+	margin-left: 1px;
+	margin-top: 10px;
+	width: 120px;
+}
+
+#reserve-button
+{
+	border-radius: 2px;
+	background: #82b64b;
+	margin-left: 97px;
+
+}
+
+#studio-button
+{
+	background: #534D4D;
+	margin-left: -9px;
+	margin-top: 10px;
+	width: 200px;
+}
+
+#location-button
+{
+	border-radius: 2px;
+	background: #82b64b;
+	margin-left: 47px;
+
+}
+
+input[type="text"],
+input[type="text2"],
+textarea{
+	border-radius: 29px;
+}
+
+
+
+#content-piano, #content-guitar, #content-studio, #content-location
+{
+	display: none;
+}
+
+
+/*MOBILE CSS*/
+
+
+@media screen and (max-width: 500px){
+	#trending-web {
+		display: none!important;
+	}
+
+	#trending-mobile {
+		display: block!important;
+	}
+
+}
+
+img
+{
+	margin: 5px 5px 5px 0px;
+}
+h2
+{
+	font-size: 15px;
+}
+h4
+{
+	font-size: 15px;
+}
+
+
+
